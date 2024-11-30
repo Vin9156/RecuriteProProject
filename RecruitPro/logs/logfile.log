@@ -1,0 +1,118 @@
+2024-11-29T19:01:04.782+05:30  INFO 14404 --- [RecruitPro] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-29T19:01:04.797+05:30  INFO 14404 --- [RecruitPro] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-29T19:01:04.824+05:30  INFO 14404 --- [RecruitPro] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-29T19:01:04.840+05:30  INFO 14404 --- [RecruitPro] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T19:01:04.854+05:30  INFO 14404 --- [RecruitPro] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-29T19:01:04.873+05:30  INFO 14404 --- [RecruitPro] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-29T19:01:05.019+05:30  INFO 14404 --- [RecruitPro] [restartedMain] com.jbk.RecruitProApplication            : Starting RecruitProApplication using Java 21.0.3 with PID 14404 (A:\download\RecruitPro\target\classes started by vinayak sunkewar in A:\download\RecruitPro)
+2024-11-29T19:01:05.020+05:30  INFO 14404 --- [RecruitPro] [restartedMain] com.jbk.RecruitProApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-11-29T19:01:05.432+05:30  INFO 14404 --- [RecruitPro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-29T19:01:05.443+05:30  INFO 14404 --- [RecruitPro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-11-29T19:01:05.920+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8092 (http)
+2024-11-29T19:01:05.922+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-29T19:01:05.923+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-29T19:01:05.956+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-29T19:01:05.956+05:30  INFO 14404 --- [RecruitPro] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 930 ms
+2024-11-29T19:01:06.081+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-29T19:01:06.085+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-29T19:01:06.105+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-29T19:01:06.107+05:30  INFO 14404 --- [RecruitPro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-11-29T19:01:06.145+05:30  INFO 14404 --- [RecruitPro] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@226c2a6f
+2024-11-29T19:01:06.146+05:30  INFO 14404 --- [RecruitPro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-11-29T19:01:06.147+05:30  WARN 14404 --- [RecruitPro] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-29T19:01:06.147+05:30  WARN 14404 --- [RecruitPro] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-29T19:01:06.149+05:30  INFO 14404 --- [RecruitPro] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-29T19:01:06.331+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-29T19:01:06.353+05:30  INFO 14404 --- [RecruitPro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T19:01:06.580+05:30  WARN 14404 --- [RecruitPro] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-29T19:01:07.050+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-29T19:01:07.087+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8092 (http) with context path '/'
+2024-11-29T19:01:07.103+05:30  INFO 14404 --- [RecruitPro] [restartedMain] com.jbk.RecruitProApplication            : Started RecruitProApplication in 2.146 seconds (process running for 150.599)
+2024-11-29T19:01:07.109+05:30  INFO 14404 --- [RecruitPro] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-29T19:01:16.759+05:30  INFO 14404 --- [RecruitPro] [http-nio-8092-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-29T19:01:16.760+05:30  INFO 14404 --- [RecruitPro] [http-nio-8092-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-29T19:01:16.763+05:30  INFO 14404 --- [RecruitPro] [http-nio-8092-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-11-29T19:01:16.819+05:30  INFO 14404 --- [RecruitPro] [http-nio-8092-exec-3] com.jbk.aspects.LoginTimeAspect          : Execution Time=30
+2024-11-29T19:03:04.985+05:30  INFO 14404 --- [RecruitPro] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-11-29T19:03:04.989+05:30  INFO 14404 --- [RecruitPro] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-11-29T19:03:05.004+05:30  INFO 14404 --- [RecruitPro] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-11-29T19:03:05.010+05:30  INFO 14404 --- [RecruitPro] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T19:03:05.012+05:30  INFO 14404 --- [RecruitPro] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-11-29T19:03:05.036+05:30  INFO 14404 --- [RecruitPro] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-11-29T19:03:05.166+05:30  INFO 14404 --- [RecruitPro] [restartedMain] com.jbk.RecruitProApplication            : Starting RecruitProApplication using Java 21.0.3 with PID 14404 (A:\download\RecruitPro\target\classes started by vinayak sunkewar in A:\download\RecruitPro)
+2024-11-29T19:03:05.167+05:30  INFO 14404 --- [RecruitPro] [restartedMain] com.jbk.RecruitProApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-11-29T19:03:05.432+05:30  INFO 14404 --- [RecruitPro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-29T19:03:05.441+05:30  INFO 14404 --- [RecruitPro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2024-11-29T19:03:05.695+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8092 (http)
+2024-11-29T19:03:05.697+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-29T19:03:05.698+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-29T19:03:05.730+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-29T19:03:05.730+05:30  INFO 14404 --- [RecruitPro] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 560 ms
+2024-11-29T19:03:05.840+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-29T19:03:05.844+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-29T19:03:05.860+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-29T19:03:05.862+05:30  INFO 14404 --- [RecruitPro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-11-29T19:03:05.891+05:30  INFO 14404 --- [RecruitPro] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c455f7d
+2024-11-29T19:03:05.891+05:30  INFO 14404 --- [RecruitPro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-11-29T19:03:05.893+05:30  WARN 14404 --- [RecruitPro] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-29T19:03:05.893+05:30  WARN 14404 --- [RecruitPro] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-29T19:03:05.893+05:30  INFO 14404 --- [RecruitPro] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-29T19:03:06.050+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-29T19:03:06.088+05:30  INFO 14404 --- [RecruitPro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T19:03:06.227+05:30  WARN 14404 --- [RecruitPro] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-29T19:03:06.618+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-29T19:03:06.656+05:30  INFO 14404 --- [RecruitPro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8092 (http) with context path '/'
+2024-11-29T19:03:06.662+05:30  INFO 14404 --- [RecruitPro] [restartedMain] com.jbk.RecruitProApplication            : Started RecruitProApplication in 1.547 seconds (process running for 270.157)
+2024-11-29T19:03:06.665+05:30  INFO 14404 --- [RecruitPro] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-29T19:05:33.511+05:30  INFO 7832 --- [RecruitPro] [restartedMain] com.jbk.RecruitProApplication            : Starting RecruitProApplication using Java 21.0.3 with PID 7832 (A:\download\RecruitPro\target\classes started by vinayak sunkewar in A:\download\RecruitPro)
+2024-11-29T19:05:33.516+05:30  INFO 7832 --- [RecruitPro] [restartedMain] com.jbk.RecruitProApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-11-29T19:05:33.596+05:30  INFO 7832 --- [RecruitPro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-29T19:05:33.597+05:30  INFO 7832 --- [RecruitPro] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-29T19:05:34.778+05:30  INFO 7832 --- [RecruitPro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-29T19:05:34.821+05:30  INFO 7832 --- [RecruitPro] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 JPA repository interfaces.
+2024-11-29T19:05:36.127+05:30  INFO 7832 --- [RecruitPro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8092 (http)
+2024-11-29T19:05:36.152+05:30  INFO 7832 --- [RecruitPro] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-29T19:05:36.152+05:30  INFO 7832 --- [RecruitPro] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-11-29T19:05:36.239+05:30  INFO 7832 --- [RecruitPro] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-29T19:05:36.240+05:30  INFO 7832 --- [RecruitPro] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2642 ms
+2024-11-29T19:05:36.578+05:30  INFO 7832 --- [RecruitPro] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-29T19:05:36.676+05:30  INFO 7832 --- [RecruitPro] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-11-29T19:05:36.738+05:30  INFO 7832 --- [RecruitPro] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-29T19:05:37.173+05:30  INFO 7832 --- [RecruitPro] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-29T19:05:37.210+05:30  INFO 7832 --- [RecruitPro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-29T19:05:37.795+05:30  INFO 7832 --- [RecruitPro] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f3d1dc1
+2024-11-29T19:05:37.798+05:30  INFO 7832 --- [RecruitPro] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-29T19:05:37.898+05:30  WARN 7832 --- [RecruitPro] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-29T19:05:37.899+05:30  WARN 7832 --- [RecruitPro] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-29T19:05:37.935+05:30  INFO 7832 --- [RecruitPro] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-11-29T19:05:39.151+05:30  INFO 7832 --- [RecruitPro] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-29T19:05:39.228+05:30  INFO 7832 --- [RecruitPro] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-29T19:05:39.568+05:30  WARN 7832 --- [RecruitPro] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-29T19:05:40.598+05:30  INFO 7832 --- [RecruitPro] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-29T19:05:40.652+05:30  INFO 7832 --- [RecruitPro] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8092 (http) with context path '/'
+2024-11-29T19:05:40.669+05:30  INFO 7832 --- [RecruitPro] [restartedMain] com.jbk.RecruitProApplication            : Started RecruitProApplication in 7.972 seconds (process running for 8.845)
+2024-11-29T19:08:20.065+05:30  INFO 7832 --- [RecruitPro] [http-nio-8092-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-29T19:08:20.066+05:30  INFO 7832 --- [RecruitPro] [http-nio-8092-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-29T19:08:20.069+05:30  INFO 7832 --- [RecruitPro] [http-nio-8092-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-11-29T19:08:20.454+05:30  INFO 7832 --- [RecruitPro] [http-nio-8092-exec-1] com.jbk.aspects.LoginTimeAspect          : Execution Time=71
